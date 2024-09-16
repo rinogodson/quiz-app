@@ -1,7 +1,6 @@
 import React from 'react'
 import { useParams } from 'react-router-dom'
 import quizData from './quizqs.json'
-import SingleOption from '../components/QuestionBox/SingleOption'
 import { useState } from 'react'
 import QuestionBox from '../components/QuestionBox/QuestionBox'
 
@@ -21,7 +20,12 @@ function QuizP() {
         qsNumber={qsNumber}
       />
       <button onClick={() => setQsNumber(qsNumber > 0 ? qsNumber - 1 : qsNumber)}>Previous Question</button>
-      <button onClick={() => setQsNumber(qsNumber < (quizData.modules[moduleId - 1].questions.length - 1) ? qsNumber + 1 : qsNumber)}>Next Question</button>
+      <button onClick={() => {
+        setQsNumber(qsNumber < (quizData.modules[moduleId - 1].questions.length - 1) ? qsNumber + 1 : qsNumber)
+        if(qsNumber === (quizData.modules[moduleId - 1].questions.length - 1)) {
+          window.location.href = `/quiz/${moduleId}/result/${points}`
+        }
+        }}>{qsNumber < (quizData.modules[moduleId - 1].questions.length - 1) ? "Next Question" : "Submit"}</button>
     </div>
   )
 }
