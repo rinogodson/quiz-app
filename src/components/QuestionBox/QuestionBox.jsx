@@ -11,6 +11,9 @@ function QuestionBox(props) {
         points={props.points}
         isCorrect={option === props.qn.correctAnswer}
         qsNumber={props.qsNumber}
+
+        setInputted={props.setInputted}
+        inputted={props.inputted}
       />
     ))}
   </div>;

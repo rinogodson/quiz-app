@@ -1,14 +1,28 @@
-import React from "react";
-
+import React, {useState} from "react";
+import { useEffect } from "react";
 function SingleOption(props) {
-    const [isActive, setIsActive] = React.useState(false);
+    const [isActive, setIsActive] = useState(false);
+    useEffect(() => {
+      if (props.inputted) {
+          setIsActive(true);
+      }
+  }, [props.inputted]);
     const handleClick = () => {
+        props.setInputted(true);
         if (!isActive) {
             setIsActive(true);
             if (props.isCorrect) {
-                props.setPoints(props.points + 1);
+                props.setPoints(prevPoints => prevPoints + 1);
             }
         }
+
+      //   if (!props.inputted) {
+      //     props.setInputted(true);
+      //     setIsActive(true);
+      //     if (props.isCorrect) {
+      //         props.setPoints(prevPoints => prevPoints + 1);
+      //     }
+      // }
     };
   return (
     <div>

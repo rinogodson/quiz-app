@@ -1,0 +1,84 @@
+.container-qp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.backBtn{
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0);
+    cursor: pointer;
+    color: rgb(67, 166, 253);
+    font-weight: 600;
+    align-self: flex-start;
+}
+
+.points{
+    font-size: 20px;
+    font-weight: 200;
+    color: rgb(201, 201, 201);
+}
+
+.pointsNum{
+    font-size: 18px;
+    background-color: rgba(17, 119, 208, 0.467);
+    color: rgba(240, 248, 255, 0.856);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.moduleh1{
+    font-size: 20px;
+    margin: 0%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.btns{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 50px 100px;
+    grid-template-rows: 50px;
+    gap: 15px;
+}
+
+.prevBtn{
+    font-size: 20px;
+    border: 3px solid rgb(164, 164, 164);
+    background-color: gray;
+    color: azure;
+    border-radius: 20px 10px 10px 20px;
+    transition: all 300ms;
+}
+.nextBtn{
+    font-size: 20px;
+    border: 3px solid rgb(164, 164, 164);
+    background-color: gray;
+    color: azure;
+    border-radius: 10px 20px 20px 10px;
+    transition: all 300ms;
+}
+.prevBtn:active{
+    transform: scale(0.8);
+}
+.nextBtn:active{
+    transform: scale(0.8);
+}
+.submitBtn{
+    font-size: 20px;
+    border: 3px solid rgb(86, 255, 1);
+    background-color: rgb(90, 132, 93);
+    color: rgb(86, 255, 1);
+    border-radius: 10px 20px 20px 10px;
+    transition: all 300ms;
+}
+.submitBtn:active{
+    transform: scale(0.8);
+}
+.qContainer{
+    height: 350px;
+    overflow-x: scroll;
+    overflow-y: scroll;
+}
