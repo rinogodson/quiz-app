@@ -1,0 +1,38 @@
+.option-none{
+    border: solid 1px;
+    width: 100%;
+    height: 50px;
+    font-size: 1em;
+    border-radius: 20px;
+    border-color: rgb(111, 111, 111);
+    background-color: rgb(40, 41, 40);
+    color: rgb(235, 235, 235);
+    font-weight: 550;
+    transition: all 300ms;
+}
+
+.option-right{
+    border: solid 1px;
+    width: 100%;
+    height: 50px;
+    font-size: 1em;
+    border-radius: 20px;
+    border-color: rgb(160, 255, 125);
+    background-color: rgb(30, 51, 31);
+    color: rgb(199, 199, 199);
+    font-weight: 550;
+    transition: all 300ms;
+}
+
+.option-wrong{
+    border: solid 1px;
+    width: 100%;
+    height: 50px;
+    font-size: 1em;
+    border-radius: 20px;
+    border-color: rgb(255, 125, 125);
+    background-color: rgb(51, 30, 30);
+    color: rgba(199, 199, 199, 0.449);
+    font-weight: 550;
+    transition: all 300ms;
+}

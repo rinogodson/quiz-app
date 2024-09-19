@@ -1,5 +1,7 @@
 import React, {useState} from "react";
 import { useEffect } from "react";
+import '../QuestionBox/SingleOption.css'
+
 function SingleOption(props) {
     const [isActive, setIsActive] = useState(false);
     useEffect(() => {
@@ -8,7 +10,9 @@ function SingleOption(props) {
       }
   }, [props.inputted]);
     const handleClick = () => {
-        props.setInputted(true);
+        if(!props.isCorrect){
+          props.setInputted(true);
+        }
         if (!isActive) {
             setIsActive(true);
             if (props.isCorrect) {
@@ -26,7 +30,7 @@ function SingleOption(props) {
     };
   return (
     <div>
-      <button onClick={handleClick} style={{ backgroundColor: isActive ? (props.isCorrect ? "green" : "red") : "white" }}>
+      <button onClick={handleClick} className={isActive ? (props.isCorrect ? "option-right" : "option-wrong") : "option-none"}>
         {props.text}
       </button>
     </div>
