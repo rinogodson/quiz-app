@@ -4,60 +4,175 @@
         "module": 1,
         "questions": [
           {
-            "question": "What is the capital of France?",
-            "options": ["Berlin", "Madrid", "Paris", "Rome"],
-            "correctAnswer": "Paris"
+              "question": "What is the motto of our Hospital?",
+              "options": [
+                  "Serve with Love and Compassion",
+                  "Care with Dignity",
+                  "Health for All",
+                  "Compassion and Healing"
+              ],
+              "correctAnswer": "Serve with Love and Compassion"
           },
           {
-            "question": "Which planet is known as the Red Planet?",
-            "options": ["Earth", "Mars", "Jupiter", "Saturn"],
-            "correctAnswer": "Mars"
+              "question": "Which year was Holy Cross Hospital started?",
+              "options": [
+                  "1952",
+                  "1960",
+                  "1948",
+                  "1955"
+              ],
+              "correctAnswer": "1952"
           },
           {
-            "question": "Who wrote 'To Kill a Mockingbird'?",
-            "options": ["Harper Lee", "Mark Twain", "J.K. Rowling", "Jane Austen"],
-            "correctAnswer": "Harper Lee"
+              "question": "What is the total number of beds in the hospital?",
+              "options": [
+                  "390",
+                  "250",
+                  "500",
+                  "300"
+              ],
+              "correctAnswer": "390"
           },
           {
-            "question": "What is the largest ocean on Earth?",
-            "options": ["Atlantic", "Indian", "Arctic", "Pacific"],
-            "correctAnswer": "Pacific"
+              "question": "Name two standard identifiers for patient identification.",
+              "options": [
+                  "Patient Full Name & UHID",
+                  "Patient Address & Phone Number",
+                  "Patient Age & Gender",
+                  "Patient ID Card & Photo"
+              ],
+              "correctAnswer": "Patient Full Name & UHID"
           },
           {
-            "question": "Which country won the FIFA World Cup in 2018?",
-            "options": ["Brazil", "Germany", "France", "Argentina"],
-            "correctAnswer": "France"
-          }
-        ]
+              "question": "A patient falling and resulting in a hip fracture is classified as which event?",
+              "options": [
+                  "Sentinel event",
+                  "Near miss",
+                  "Adverse event",
+                  "Hazardous event"
+              ],
+              "correctAnswer": "Sentinel event"
+          },
+          {
+              "question": "What are the codes used in the hospital?",
+              "options": [
+                  "Red, Blue, Pink, Yellow, White",
+                  "Red, Green, Orange, Yellow, White",
+                  "Blue, Purple, Yellow, White, Black",
+                  "Pink, Yellow, Black, Green, Blue"
+              ],
+              "correctAnswer": "Red, Blue, Pink, Yellow, White"
+          },
+          {
+            "question": "Who are considered vulnerable patients?",
+            "options": [
+                "Elderly, Children, Differently Abled, Mentally Challenged",
+                "Only Elderly and Children",
+                "Patients with Minor Illnesses",
+                "Adults with No Medical History"
+            ],
+            "correctAnswer": "Elderly, Children, Differently Abled, Mentally Challenged"
+        },
+        {
+            "question": "What does NABH stand for?",
+            "options": [
+                "National Accreditation Board for Hospital and Health Care Providers",
+                "National Accreditation Board for Hospitals",
+                "National Association of Board Hospitals",
+                "National Accreditation Bureau for Health"
+            ],
+            "correctAnswer": "National Accreditation Board for Hospital and Health Care Providers"
+        },
+        {
+            "question": "What does QCI stand for?",
+            "options": [
+                "Quality Council of India",
+                "Quality Certification Institute",
+                "Quick Care Initiative",
+                "Quality Check Institute"
+            ],
+            "correctAnswer": "Quality Council of India"
+        },
+        {
+            "question": "What does MSDS stand for?",
+            "options": [
+                "Material Safety Data Sheet",
+                "Medical Safety Data Sheet",
+                "Medical Staff Duty Schedule",
+                "Material Supply Data Sheet"
+            ],
+            "correctAnswer": "Material Safety Data Sheet"
+        },
+        {
+            "question": "Which of the following are part of PPE?",
+            "options": [
+                "Gloves, Mask, Cap, Aprons, Goggles",
+                "Gloves, Shoes, Helmet, Jacket, Glasses",
+                "Mask, Shoes, Shirt, Glasses",
+                "Cap, Shoes, Aprons, Glasses"
+            ],
+            "correctAnswer": "Gloves, Mask, Cap, Aprons, Goggles"
+        },
+        {
+            "question": "What is the smoking policy in the hospital?",
+            "options": [
+                "No Smoking and No Alcohol",
+                "Smoking Allowed in Designated Areas",
+                "Alcohol Allowed but No Smoking",
+                "Smoking Allowed but No Alcohol"
+            ],
+            "correctAnswer": "No Smoking and No Alcohol"
+        },
+        {
+          "question": "What is the RAMSAY Scale used for?",
+          "options": [
+              "To measure a patient's blood pressure",
+              "To divide a patient's level of sedation into six categories",
+              "To classify a patient's pain levels",
+              "To assess a patient's respiratory function"
+          ],
+          "correctAnswer": "To divide a patient's level of sedation into six categories"
       },
       {
-        "module": 2,
-        "questions": [
-          {
-            "question": "What is the chemical symbol for water?",
-            "options": ["H2O", "O2", "CO2", "HO"],
-            "correctAnswer": "H2O"
-          },
-          {
-            "question": "In what year did World War II end?",
-            "options": ["1945", "1939", "1918", "1965"],
-            "correctAnswer": "1945"
-          },
-          {
-            "question": "Who painted the Mona Lisa?",
-            "options": ["Vincent van Gogh", "Pablo Picasso", "Leonardo da Vinci", "Claude Monet"],
-            "correctAnswer": "Leonardo da Vinci"
-          },
-          {
-            "question": "Which is the longest river in the world?",
-            "options": ["Nile", "Amazon", "Yangtze", "Mississippi"],
-            "correctAnswer": "Nile"
-          },
-          {
-            "question": "Which element has the chemical symbol 'O'?",
-            "options": ["Oxygen", "Osmium", "Gold", "Zinc"],
-            "correctAnswer": "Oxygen"
-          }
+          "question": "What is the most important frequent measure to control infection?",
+          "options": [
+              "Hand Washing",
+              "Decontamination",
+              "Patient Isolation",
+              "None of The Above"
+          ],
+          "correctAnswer": "Hand Washing"
+      },
+      {
+          "question": "What is the emergency number?",
+          "options": [
+              "911",
+              "108",
+              "112",
+              "2222"
+          ],
+          "correctAnswer": "2222"
+      },
+      {
+          "question": "What does RACE stand for in fire safety?",
+          "options": [
+              "Rescue, Alarm, Contain, Extinguish",
+              "Run, Alert, Call, Evacuate",
+              "Respond, Assess, Contain, Exit",
+              "Rescue, Assist, Contain, Evacuate"
+          ],
+          "correctAnswer": "Rescue, Alarm, Contain, Extinguish"
+      },
+      {
+          "question": "What does PASS stand for in using a fire extinguisher?",
+          "options": [
+              "Pull, Aim, Squeeze, Sweep",
+              "Push, Aim, Sweep, Secure",
+              "Pull, Align, Sweep, Stop",
+              "Press, Adjust, Secure, Sweep"
+          ],
+          "correctAnswer": "Pull, Aim, Squeeze, Sweep"
+      }            
         ]
       },
       {

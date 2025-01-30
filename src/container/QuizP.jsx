@@ -14,7 +14,7 @@ function QuizP() {
 
   return (
     <div className='container-qp'>
-      <button className='backBtn' onClick={() => window.location.href = `/`}>{"⬅ Back"}</button>
+      <button className='backBtn' onClick={() => window.location.href = `/`}>{"< Back"}</button>
       <h1 className='moduleh1'>Module: {moduleId}</h1>
       <h1 className='points'>Points: <span className='pointsNum'>{points}</span></h1>
       <div className='qContainer'>
@@ -29,7 +29,7 @@ function QuizP() {
         />
         </div>
       <div className='btns'>
-        <button onClick={() => setQsNumber(qsNumber > 0 ? qsNumber - 1 : qsNumber)} className='prevBtn'>{"⬅"}</button>
+        <button onClick={() => setQsNumber(qsNumber > 0 ? qsNumber - 1 : qsNumber)} className='prevBtn'>{"P"}</button>
         <button onClick={() => {
           setInputted(false)
           setQsNumber(qsNumber < (quizData.modules[moduleId - 1].questions.length - 1) ? qsNumber + 1 : qsNumber)

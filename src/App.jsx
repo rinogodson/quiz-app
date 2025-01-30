@@ -1,8 +1,8 @@
-import React from 'react'
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import ModulesP from './container/ModulesP'
-import QuizP from './container/QuizP'
-import Results from './components/QuestionBox/Resuts'
+import React from "react";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import ModulesP from "./container/ModulesP";
+import QuizP from "./container/QuizP";
+import Results from "./components/QuestionBox/Resuts";
 
 function App() {
   return (
@@ -13,8 +13,7 @@ function App() {
         <Route path="/quiz/:moduleId/result/:points" element={<Results />} />
       </Routes>
     </BrowserRouter>
-  )
+  );
 }
 
-export default App
-
+export default App;

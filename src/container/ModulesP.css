@@ -10,6 +10,10 @@ body{
     height: 100vh;
 }
 
+* {
+    -webkit-tap-highlight-color: transparent;
+}
+
 .moduleList{
     display: grid;
     grid-template-columns: 50px 50px; 

@@ -5,6 +5,10 @@
     justify-content: center;
 }
 
+* {
+    -webkit-tap-highlight-color: transparent;
+}
+
 .backBtn{
     margin: 10px;
     padding: 10px;
